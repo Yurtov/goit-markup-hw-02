@@ -115,14 +115,12 @@ body {
 }
 
 .header-contacts-mail:focus,
-.header-contacts-mail:hover {
+.header-contacts-mail:hover,
+.header-contacts-tel:focus,
+.header-contacts-tel:hover{
     color: var(--accent-color);
 }
 
-.header-contacts-tel:focus,
-.header-contacts-tel:hover {
-    color: var(--accent-color);
-}
 
 /* -----Hero----- */
 
