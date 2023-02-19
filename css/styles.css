@@ -135,6 +135,7 @@ body {
 
 .hero-btn {
     background-color: var(--accent-color);
+    cursor: pointer;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -223,6 +224,7 @@ body {
 }
 .works-filter-btn {
     box-sizing: border-box;
+    cursor: pointer;
     flex-direction: row;
     font-family: inherit;
     font-weight: 500;
