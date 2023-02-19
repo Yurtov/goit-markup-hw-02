@@ -140,12 +140,15 @@ body {
 
 .hero-btn {
     background-color: var(--accent-color);
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5
-    align-items: center;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 /* -----Benefits----- */
@@ -230,6 +233,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.04em;
     align-items: center;
     color: var(--accent-color);
     background: #F4F4FD;
