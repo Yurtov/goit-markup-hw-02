@@ -88,11 +88,6 @@ body {
 .header-link{
 }
 
-.header-link:focus,
-.header-link:hover {
-    color: var(--accent-color);
-}
-
 .header-contacts {
     color: var(--text-color);
     font-style: normal;
@@ -114,6 +109,8 @@ body {
     color: var(--text-color);
 }
 
+.header-link:focus,
+.header-link:hover,
 .header-contacts-mail:focus,
 .header-contacts-mail:hover,
 .header-contacts-tel:focus,
