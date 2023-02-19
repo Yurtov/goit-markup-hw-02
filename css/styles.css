@@ -64,6 +64,15 @@ body {
     color: var(--accent-color);
 }
 
+.btn {
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
 /* -----Header----- */
 .header {
 }
@@ -135,12 +144,6 @@ body {
 
 .hero-btn {
     background-color: var(--accent-color);
-    cursor: pointer;
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
     color: #FFFFFF;
     flex: none;
     order: 0;
@@ -224,13 +227,7 @@ body {
 }
 .works-filter-btn {
     box-sizing: border-box;
-    cursor: pointer;
     flex-direction: row;
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
     align-items: center;
     color: var(--accent-color);
     background: #F4F4FD;
