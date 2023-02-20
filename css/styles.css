@@ -25,7 +25,7 @@ body {
 .title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11px;
+    line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
 }
@@ -95,10 +95,10 @@ body {
 }
 
 .header-link{
+    color: var(--text-color);
 }
 
 .header-contacts {
-    color: var(--text-color);
     font-style: normal;
 }
 
@@ -232,7 +232,6 @@ body {
     color: var(--accent-color);
     background: #F4F4FD;
     border: 1px solid #E7E9FC;
-    border-radius: 4px;
     flex: none;
     order: 4;
     flex-grow: 0;
@@ -259,6 +258,7 @@ body {
 }
 
 .works-text {
+    color: var(--text-color);
 }
 
 .work-item {
